@@ -1,0 +1,7 @@
+TestID,Description,Product_ID,Product_Name,Add_Count,Expected_Badge,Expected_Result
+TC_001_001,BVA - Minimum Valid Quantity,1,Chocolate Cups,1,1,PASS
+TC_001_002,BVA - Maximum Valid Quantity,1,Chocolate Cups,10,10,PASS
+TC_001_003,ECP - Empty cart Valid Product: Candy,9,Candy,1,1,PASS
+TC_001_004,ECP - Add Same Product to not empty cart,2|1|9,Rainbow|Chocolate Cups|Candy,1|1|1,3,PASS
+TC_001_005,Use-Case - Add Multiple Products,2|1|9,Rainbow|Chocolate Cups|Candy,1|1|1,3,PASS
+TC_001_006,Use-Case - Clear Cart Workflow,1-10,All Products,1 each,0 after clear,PASS

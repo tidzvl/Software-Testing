@@ -1,0 +1,10 @@
+TestID,Description,Product_IDs,Product_Quantities,Expected_Total,Expected_Result
+TC_002_001,BVA - Empty Cart Total,,0,£0.00,PASS
+TC_002_002,BVA - Single Item Total,1,1,£1.00,PASS
+TC_002_003,BVA - Typical Multi-Item,1|2,1|2,£2.50,PASS
+TC_002_004,BVA - Large Quantity Total,1,100,£100.00,PASS
+TC_002_005,ECP - Low Price Items,7,3,£0.75,PASS
+TC_002_006,DTT - Formula Single Item,1,1,£1.00,PASS
+TC_002_007,DTT - Formula Multi-Type,1-10,1 each,calculated,PASS
+TC_002_008,Use-Case - Delete Item,1|2|3,1 each,calculated,PASS
+TC_002_009,Use-Case - Standard Shipping,1,1 + shipping,£2.99,FAIL

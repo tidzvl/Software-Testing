@@ -1,20 +1,2 @@
-# Selenium và WebDriver Manager
-selenium==4.16.0
+selenium==4.15.2
 webdriver-manager==4.0.1
-
-# Testing framework
-pytest==7.4.3
-pytest-html==4.1.1
-pytest-xdist==3.5.0
-
-# Assertions và Utilities
-assertpy==1.1
-
-# Logging và Reporting
-allure-pytest==2.13.2
-
-# Environment variables
-python-dotenv==1.0.0
-
-# Data handling
-faker==22.0.0
